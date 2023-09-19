@@ -104,7 +104,7 @@ class _OrderListPageState extends State<OrderListPage> {
                                       style: TextStyle(
                                         fontWeight: FontWeight.bold,
                                         color: Colors
-                                            .black12, // Change text color to white
+                                            .black45, // Change text color to white
                                         fontSize: 20,
                                       ),
                                       children: <TextSpan>[
@@ -221,6 +221,15 @@ class _OrderListPageState extends State<OrderListPage> {
                                   ),
                                 ],
                               )),
+                          Container(child:
+                          Padding(
+                            padding: const EdgeInsets.all(10.0),
+                            child: Row(crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text("Popular with your order"),
+                              ],
+                            ),
+                          )),
                           SingleChildScrollView(
                             scrollDirection: Axis.horizontal,
                             child: Row(
@@ -311,7 +320,7 @@ class _OrderListPageState extends State<OrderListPage> {
                             ),
                           ),
                           Container(
-                              height: 115,
+                              height: 120,
                               width: 400,
                               decoration: BoxDecoration(
                                   color: Colors.white.withOpacity(1.0),
@@ -348,7 +357,7 @@ class _OrderListPageState extends State<OrderListPage> {
                                                       "Subscribe from 2.10/month! \nMin. spend applies.",
                                                   style: TextStyle(
                                                     color: Colors
-                                                        .black26, // Change text color to white
+                                                        .black45, // Change text color to white
                                                     fontSize: 15,
                                                   ),
                                                 ),
@@ -452,7 +461,7 @@ class _OrderListPageState extends State<OrderListPage> {
                             ],
                           ),
                           Container(
-                            height: 120,
+                            height: 100,
                             width: 400,
                             decoration: BoxDecoration(
                                 color: Colors.white.withOpacity(1.0),
@@ -493,7 +502,7 @@ class _OrderListPageState extends State<OrderListPage> {
                                           Text(
                                             "Awesome! You'll earn 1 reward with \nthis order.",
                                             style: TextStyle(
-                                              color: Colors.black26,
+                                              color: Colors.black45,
                                               fontSize: 15,
                                             ),
                                           ),
@@ -549,7 +558,7 @@ class _OrderListPageState extends State<OrderListPage> {
                                           Text(
                                             "The restaurant will provide cutlery, if\n available.",
                                             style: TextStyle(
-                                              color: Colors.black26,
+                                              color: Colors.black45,
                                               fontSize: 14,
                                             ),
                                           ),
@@ -574,7 +583,7 @@ class _OrderListPageState extends State<OrderListPage> {
               child: Container(
                 color: Colors.green,
                 child:  Container(
-                    height: 150,
+                    height: 140,
                     width: 400,
                     decoration: BoxDecoration(
                         color: Colors.white.withOpacity(1.0),
